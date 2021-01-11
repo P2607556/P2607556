@@ -1,0 +1,91 @@
+/*==================================================
+			 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cast-about {
+        padding: 10px;
+    }
+    .cast-about h5 {
+        margin-bottom: 10px;
+    }
+    iframe {
+        height: 480px !important;
+    }
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cast-about {
+        padding: 10px;
+    }
+    .cast-about h5 {
+        margin-bottom: 10px;
+    }
+    iframe {
+        height: 380px !important;
+    }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    .title-h1 a {
+        font-size: 20px;
+    }
+    .title-h1 {
+        padding: 5px;
+    }
+    #movie-card, #about-card {
+        margin: 20px 0;
+    }
+    .no-pad-marg {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .cast-title h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .cast-about {
+        padding: 30px 10px;
+        min-height: auto;
+        max-height: fit-content;
+    }
+    audio {
+        width: 100%;
+    }
+    .text-md-left {
+        text-align: left !important;
+    }
+    iframe {
+        height: 190px !important;
+    }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+    
+}
